@@ -1,4 +1,18 @@
 .wrapper {
-  @apply container mx-auto;
-  @apply p-4;
+  @apply w-full mx-auto p-4;
+  @apply border-b-2 border-gray-300;
+}
+
+.logo {
+  @apply mx-auto;
+}
+
+.menuWrapper {
+  @apply w-full mx-auto p-2;
+  @apply border-b-2 border-gray-300;
+  @apply text-center space-x-6;
+}
+
+.link {
+  @apply hover:underline;
 }
