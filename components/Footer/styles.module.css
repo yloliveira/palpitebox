@@ -1,12 +1,24 @@
 .wrapper {
-  @apply w-full mx-auto p-2 text-center;
-  @apply bg-gray-700 text-white font-bold;
+  @apply
+    w-full
+    mx-auto
+    p-2
+    text-center
+    bg-gray-700
+    text-white
+    font-bold
 }
 
 .imagesWrapper {
-  @apply flex flex-wrap justify-center items-center;
+  @apply
+    flex
+    flex-wrap
+    justify-center
+    items-center
 }
 
 .image {
-  @apply px-10 py-5;
+  @apply
+    px-10
+    py-5
 }
